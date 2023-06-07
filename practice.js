@@ -142,8 +142,77 @@
 
 // fun1();
 
-let a = "vaidik";
-let b = parseInt(a + 20);
-console.log(b);
+// let a = "vaidik";
+// let b = parseInt(a + 20);
+// console.log(b);
 
-let y = function () {};
+// let y = function () {};
+
+// function x() {
+//   //rest
+//   //   arr.map((i) => {
+//   //     console.log(i);
+//   //   });
+//   for (let i = 0; i < arguments.length; i++) {
+//     console.log(arguments[i]);
+//   }
+// }
+// x([1, 2, 3], [11, 2, 3]);
+
+// let arr = [1, 2, 3, 4];
+// let arr2 = [...arr]; //sprad
+
+// const add = function (x) {
+//   return function (y) {
+//     return function (z) {
+//       return x + y + z;
+//     };
+//   };
+// };
+// // const add5 = add(5);
+// // console.log(add5(3));
+// console.log(add(5)(3)(3));
+
+// await delay(6000);
+
+// async function x() {
+//   await new Promise((res, rej) => {
+//     setTimeout(() => {
+//       console.log("first");
+//       res();
+//     }, 1000);
+//   });
+
+//   console.log("second");
+// }
+
+// x();
+
+// let str = "235";
+// let str1 = BigInt(84792754724579234757234495892);
+// let a = 2;
+// console.log(str1);
+// let str2 = parseInt(str) + a;
+
+// console.log(str2);
+// const username = "vaidik";
+// // let username = prompt("Enter your name");
+// const displayName = username ?? "Guest";
+
+// console.log(displayName); // Output: "Guest"
+// function* numberGenerator() {
+//   let num = 1;
+//   while (true) {
+//     yield num;
+//     num++;
+//   }
+// }
+
+// // Create an instance of the generator
+// const generator = numberGenerator();
+
+// // Generate numbers using the generator
+// console.log(generator.next().value); // Output: 1
+// console.log(generator.next().value); // Output: 2
+// console.log(generator.next().value); // Output: 3
+// console.log(generator.next().value);

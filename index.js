@@ -17,7 +17,7 @@ async function myfunc(e) {
       "https://crudcrud.com/api/3ed902c18a6440ca8bf548e38d655f7f/ecommerce",
       { user }
     );
-    alert("User Added");
+    alert("Product Added");
     // console.log(res.data);
     e.target.price.value = "";
     e.target.product.value = "";
