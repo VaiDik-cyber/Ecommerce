@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url("photos/shopping-cart-with-wooden-elements_23-2148879396.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#form {
+  width: 30%;
+  background-color: rgb(182, 234, 232);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: rgb(150, 150, 193) 0px 8px 25px 3px;
+  border: 1px solid white;
+  margin: 5% 30%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* list-style: none; */
+}
+/* #container ul {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; 
+} */
+
+#container li {
+  list-style: none;
+  justify-content: space-between;
+}
+#div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
